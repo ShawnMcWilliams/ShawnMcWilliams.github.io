@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   
-	  <style> h1 {
+	  <style>  h1 {
             color: white;
         }
         
@@ -43,13 +43,29 @@
 h2{
   color:white;
   background-color:purple;
-}</style>
+}
+
+.header {  position: relative; 
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-size:40px
+}
+
+@keyframes example {
+  0%   {color:darkgrey; ;}
+  25%  {color:grey; ;}
+  50%  {color:lightpurple; }
+  75%  {color:purple;}
+  100% {color:darkgrey; 
+}
+</style>
 	 
      <head>
     <title>The BMIT academy</title>
 
   </head>
-  <body>
+  <body class="animation">
     <h1 class="header">All about BMIT</h1>
     <p>
     <p id="description"></p>
@@ -92,6 +108,8 @@ h2{
         <br><iframe width="560" height="315" src="https://www.youtube.com/embed/9gTw2EDkaDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br>
         <br>
+        
+     
         <strong>After learning more about BMIT how do you feel about the program</strong>
         <br>
          <input type="checkbox" name="context">I want to join!
@@ -109,6 +127,8 @@ h2{
         </textarea>
         <br>
          <input type="submit" value="Press when done">
+        
+      
     
 	    
 	</body>
