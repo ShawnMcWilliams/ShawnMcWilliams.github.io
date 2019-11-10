@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	  <style>h1 {
-            color: grey;
-        }  
+  
+	  <style> h1 {
+            color: white;
+        }
+        
+      
+        
         #description {
             color:black;
         }
+
+
 .featured{
   background-color:purple;
   font-family:times new roman;
@@ -14,19 +19,38 @@
   border:5px dashed ;
   border-color:white;
   padding:20px 10px 10px 40px;
-  color: white !important;    
+  color: white !important;
+  text-align:center
+    
 }
-h1 {
+.header {
   text-align:center;
   text-decoration:underline;
+  font-size:40px;
+  color:grey;
+  
+}
+.cg{
+  text-decoration:underline;
+  color:grey;
   font-size:50px
-} </style>
+}
+
+.end{
+  text-decoration:bold;
+}
+
+h2{
+  color:white;
+  background-color:purple;
+}</style>
 	 
+     <head>
     <title>The BMIT academy</title>
 
   </head>
   <body>
-    <h1>All about BMIT</h1>
+    <h1 class="header">All about BMIT</h1>
     <p>
     <p id="description"></p>
   </body>
@@ -47,17 +71,46 @@ h1 {
 	    <div class="content">
         
 	        <h2>Why do I study HTML and CSS</h2>
-        <p> I study HTML and CSSto further my understanding of technology and websites. When you get deep enough into it it starts feeling less like stresful work and moreso like art</p>
+        <p> I study HTML and CSS to further my understanding of technology and websites. When you get deep enough into it it starts feeling less like stresful work and moreso like art</p>
+        <br>
+        <br>
 	        <h2>Coding fundamentals</h2>
         
 	        <p>
 	            I gained an introduction to coding that changed the way I look at websites now. Every single piece of a wbeiste  has hours and hours of work put into a single line  of code makes one appreciate those who worked on it.
 	        </p>
+        <br>
+        <br>
 	        
 	        <h2>Value</h2>
 	        <p>
 	           The further into the future we go technology will only continue to become more complicated, and understanding it will bring people in high demand when it comes to jobs. Why wouldn't someone want to put themselves ahead of their peers in the understanding of the growing future. 
 	        </p>
+        <br>
+        <br>
+        If your interest has been peeked after learning a little about BMIT why not learn a lot about my favorite related class programming through this 6-epsiode series of short videos whenever you get the chance
+        <br><iframe width="420" height="315" src="https://www.youtube.com/watch?v=9gTw2EDkaDQ
+ "></iframe>
+        <br>
+        <br>
+        <strong>After learning more about BMIT how do you feel about the program</strong>
+        <br>
+         <input type="checkbox" name="context">I want to join!
+        <br>
+         <input type="checkbox" name="context">I'm interested
+        <br>
+        <input type="checkbox" name="context">I'm not interested
+        <br>
+        
+        <br>
+        <strong> Could you describe in depth why you feel like this</strong>
+      <form action="soewebsite.php" method="post">
+        <textarea row="40" col="50">
+        We want to hear your thoughts  
+        </textarea>
+        <br>
+         <input type="submit" value="Press when done">
+    
 	    
 	</body>
 </html>
