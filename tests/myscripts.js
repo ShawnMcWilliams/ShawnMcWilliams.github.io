@@ -28,3 +28,15 @@ for (e=0; e<9; e++)
     var ans = Math.pow(2,e);
     document.write("loop5:" + ans + "<br />" )
   }
+var f
+for (f=0; f<9; f++)
+  {
+    var ans = Math.random(2,f);
+    document.write("MathRandom:" + ans + "<br />" )
+  }
+var g
+for (g=0; g<9; g++)
+  {
+    var ans = Math.sqrt(2,g);
+    document.write("SquareRoot:" + ans + "<br />" )
+  }
