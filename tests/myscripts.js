@@ -40,12 +40,25 @@ for (g=0; g<9; g++)
     var ans = Math.sqrt(2,g);
     document.write("SquareRoot:" + ans + "<br />" )
   }
-function myLoop(){
-  var start = document.getElementById("start").value;
-  var end = document.getElementById("end").value;
+function myLoop(){ 
+var start = document.getElementById("start").value;  
+var end = document.getElementById("end").value;
+var jump = document.getElementById("jump").value;
 
-  for (var i = start ; i <= end ; i++)
+console.log(typeof start);
+console.log(typeof end);
+console.log(typeof jump);
+  
+start = Number(start);
+end = Number(end);
+jump = Number(jump);
+  
+console.log(typeof start);
+console.log(typeof end);
+console.log(typeof jump);  
+  
+for(var i = start; i <= end; i+=jump)
   {
-    document.write('<p>'+ i +'</p>');
+    document.write('<p>' + i + '</p>');
+  }  
   }
-}  
